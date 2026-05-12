@@ -12,7 +12,14 @@
         return listaUsuarios
     }
 
+    const create = (user) => {
+        userList.push(user)
+
+        return user
+    }
+
     module.exports= {
-        findALL
+        findALL,
+        create
 
     } 
