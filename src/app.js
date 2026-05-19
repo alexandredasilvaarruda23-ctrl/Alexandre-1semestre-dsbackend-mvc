@@ -10,11 +10,11 @@ function callbackDaRaiz( request, response ) {
     response.send("VAI CORINTHIANS!!!! 🦅")
 }
 
-
-
 app.get("/", callbackDaRaiz)
 
 app.get("/users", userController.getALLUsers)
+
+app.get("/users/:id", userController.getUserById)
 
 app.post("/users", userController.createUser)
 

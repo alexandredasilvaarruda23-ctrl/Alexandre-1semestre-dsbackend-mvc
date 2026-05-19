@@ -1,15 +1,9 @@
   const userList = require("../data/users")
-  
-  
-  const listaUsuarios = [
-        {
-            id: 1,
-            name: "João"
-        }
-    ]
+
+ 
 
     const findALL = () => {
-        return listaUsuarios
+        return userList
     }
 
     const create = (user) => {
@@ -18,8 +12,14 @@
         return user
     }
 
+    const findById = (id) => {
+        return userList.find( user => user.id=== id)
+    }
+
     module.exports= {
         findALL,
-        create
-
+        create,
+        findById
     } 
+
+    

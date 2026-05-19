@@ -8,18 +8,38 @@ function getALLUsers(request, response) {
 
 function createUser(req,res) {
    //const name = rteq.body.name
+
+   const {name} = req.body
+
    const newUser = {
       id: Date.now(),
-      name: name
+      name:name
    }
 
    const createdUser = userModel.create(newUser)
 
-   return res.statatus(201).json(createUser)
-}
-module.exports = {
-   createUser,
-   getALLUsers
+   return res.status(201).json(createdUser)
 }
 
+const getUserById = (req, res) => {
+   const id = Number(req.params.id)
+
+   const user = userModel.findById(id)
+
+   if(!user) {
+      return res.status(404).json({
+         message: "Usuário não encontrado"
+      })
+   }
+
+   return res.json(user)
+}
+
+
+module.exports = {
+   createUser,
+   getALLUsers,
+   getUserById
+
+}
 
