@@ -10,7 +10,7 @@ collection:
   - url: http://localhost:3000/
     name: Teste API
     meta:
-      id: req_c69cdeee96d747e3866409fdf378547b
+      id: req_2bfad3eaa97f4b59b62f60c998b21268
       created: 1778539601676
       modified: 1778540037921
       isPrivate: false
@@ -33,7 +33,7 @@ collection:
   - url: http://localhost:3000/users
     name: Listagem de usuários
     meta:
-      id: req_a6ba975518cc4668bbebcead0dcb291a
+      id: req_d30dcabac1364ee18efff4b5b5fb3c50
       created: 1778540162046
       modified: 1778540201104
       isPrivate: false
@@ -56,7 +56,7 @@ collection:
   - url: http://localhost:3000/users
     name: Criar usuário
     meta:
-      id: req_47c85b7e37f34ee49fa30154e1d4f8e5
+      id: req_e04e761cfa614cff93e5f57b838da60b
       created: 1778540839882
       modified: 1778541626575
       isPrivate: false
@@ -87,7 +87,7 @@ collection:
   - url: http://localhost:3000/users/1
     name: buscar usuario por id
     meta:
-      id: req_d11167f7e306482e8f86e542211ea367
+      id: req_c726678e30db45fe87d9e4075fcb9657
       created: 1779751640924
       modified: 1779751729287
       isPrivate: false
@@ -110,7 +110,7 @@ collection:
   - url: http://localhost:3000/users/1
     name: atualizar usuario
     meta:
-      id: req_d09cd6f490eb4d24a2747f7f0b6bb5e5
+      id: req_669efee9b2054379bda68ec0a24a598a
       created: 1779751790000
       modified: 1779751836091
       isPrivate: false
@@ -141,7 +141,7 @@ collection:
   - url: http://localhost:3000/users/1
     name: "Deletar usuário "
     meta:
-      id: req_961542401c5449058d940c4fca1302fa
+      id: req_80ff8027ac0f445188045e91d5a42166
       created: 1779757321493
       modified: 1779758177280
       isPrivate: false
@@ -165,12 +165,12 @@ cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779747941761
-    modified: 1779747941761
+    created: 1780352918342
+    modified: 1780352918342
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779747941758
-    modified: 1779747941758
+    created: 1780352918340
+    modified: 1780352918340
     isPrivate: false
